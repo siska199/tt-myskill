@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+
+  html, body {
+    @apply bg-background 
+  }
+}
+
+@layer utilities {
+  .container-page {
+    @apply max-w-[1500px]  mx-auto min-h-screen px-sm md:px-lg lg:px-[6rem];
+  }
+  .border-test {
+    @apply border border-black;
+  }
+
+}
+
