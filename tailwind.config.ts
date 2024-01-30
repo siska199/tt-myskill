@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily : {
+      fontSize : {
         "heading-1" : ["1.875rem","2.25rem"],
         "heading-2" : ["1.5rem", "2rem"],
         "heading-3" : ["1.25rem", "1.75rem"],
@@ -17,7 +17,13 @@ const config: Config = {
         "small"     : ["0.875rem", "1.125rem"],
         "tiny"      : ["0.75rem", "1rem"],
       },
+      fontWeight : {
+        thin : "300",
+      },
       colors : {
+        text : {
+          gray : '#6B6B6B'
+        },
         background: "#FAFAFA",
         primary : "#10A4B0",
         action : {
@@ -26,7 +32,10 @@ const config: Config = {
         disbaled : {
           btn : "#919EAB3D",
         },
-        border : "#919EAB52"
+        border : "#919EAB52",
+        card : {
+          gray : "#EBEBEB"
+        }
       },
       boxShadow : {
         card :'0px 2px 15px -4px #0000000F',

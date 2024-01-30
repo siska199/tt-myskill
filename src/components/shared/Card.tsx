@@ -7,11 +7,12 @@ interface TProps extends HTMLProps<HTMLDivElement> {
 const Card: React.FC<TProps> = (props:TProps) => {
     const {children} = props
   return (
-    <div className='rounded-lg shadow-card bg-wite p-base flex flex-col '>
+    <div className='rounded-lg shadow-card bg-white p-base flex flex-col space-y-md '>
         {children}
     </div>
   );
 };
+
 
 
 export default Card;

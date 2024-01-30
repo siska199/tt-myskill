@@ -4,7 +4,7 @@ import React from 'react'
 
 const EditPortofolioPage = () => {
   return (
-    <article>
+    <article className='p-xl'>
       <FormEditPortofolio/>
     </article>
   )
